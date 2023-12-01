@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@100;200;300;400;500;800&family=Nunito:wght@400;500;600;700;800;900;1000&family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav__bar">
+                <div class="nav__box1">
+                    <svg class="burger__css" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                      </svg>
+                      <a href="#"><img class="logo" src="./img/Logo.png" alt=""></a>
+                    <ul class="nav__list">
+                        <li class="nav__list__item"><select class="nav__item__select">
+                            <option selected hidden>Year</option>
+                            <option class="item__option" value="">Old</option>
+                            <option class="item__option" value="">New</option>
+                        </select></li>
+                        <li class="nav__list__item"><select class="nav__item__select">
+                            <option selected hidden>Rating</option>
+                            <option class="item__option" value="">Min</option>
+                            <option class="item__option" value="">Max</option>
+                        </select></li>
+                        <li class="nav__list__item"><select class="nav__item__select">
+                            <option selected hidden>Category</option>                            
+                            <option class="item__option" value="">Action</option>
+                            <option class="item__option" value="">Thriller</option>
+                        </select></li>
+                    </ul>
+                </div>
+                <div class="nav__box2">
+                    <form action="#" class="form__nav">
+                        <input class="nav__input" type="text" placeholder="Search">
+                        <label class="input__search__css" for="input"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                          </svg></label>
+                    </form>
+                    <a class="nav__box2__btn" href="#">Subscribe</a>
+                    <a class="nav__box2__link" href="#">LOG IN</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+
+        </div>
+    </section>
+    <section class="basic">
+        <div class="container">
+            <ul class="basic__list">
+                
+            </ul>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="./js/movies.js"></script>
+<script src="./js/main.js"></script>
+</html>
