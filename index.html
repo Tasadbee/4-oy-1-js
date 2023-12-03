@@ -21,20 +21,18 @@
                       </svg>
                       <a href="#"><img class="logo" src="./img/Logo.png" alt=""></a>
                     <ul class="nav__list">
-                        <li class="nav__list__item"><select class="nav__item__select">
+                        <li class="nav__list__item"><select class="nav__item__select" onchange="fnYear(value)">
                             <option selected hidden>Year</option>
-                            <option class="item__option" value="">Old</option>
-                            <option class="item__option" value="">New</option>
+                            <option class="item__option" value="old">Old</option>
+                            <option class="item__option" value="new">New</option>
                         </select></li>
-                        <li class="nav__list__item"><select class="nav__item__select">
+                        <li class="nav__list__item"><select class="nav__item__select" onchange="fnRate(value)">
                             <option selected hidden>Rating</option>
-                            <option class="item__option" value="">Min</option>
-                            <option class="item__option" value="">Max</option>
+                            <option class="item__option" value="min">min</option>
+                            <option class="item__option" value="max">max</option>
                         </select></li>
-                        <li class="nav__list__item"><select class="nav__item__select">
+                        <li class="nav__list__item"><select class="nav__item__select select__Cat" onchange="fnCategory(value)">
                             <option selected hidden>Category</option>                            
-                            <option class="item__option" value="">Action</option>
-                            <option class="item__option" value="">Thriller</option>
                         </select></li>
                     </ul>
                 </div>

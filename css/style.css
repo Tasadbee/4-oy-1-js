@@ -120,3 +120,6 @@ body{
     padding: 5px;
     margin-top: 10px;
 }
+.select__Cat option{
+    color: #0C111B;
+}
